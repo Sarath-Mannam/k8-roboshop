@@ -161,7 +161,7 @@ spec:
   ports:
   - name: web-port
     protocol: TCP
-    port: 80 # this port belongs to service
+    port: 80 # this port belongs to service and we change it to whatever we want
     targetPort: 80 # this port belongs to container
         
 
